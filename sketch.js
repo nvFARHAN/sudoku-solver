@@ -1,6 +1,6 @@
 function setup() {
   let min = Math.min(windowWidth, windowHeight);
-  createCanvas(450, 450);
+  createCanvas(360, 360);
   //   console.log(mat);
   let btn = createButton("Start");
   btn.id("start");
