@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+}
+#inpDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+canvas {
+  display: block;
+  margin: auto;
+}
+#start,
+#btn {
+  font-size: 20px;
+  color: teal;
+  background-color: white;
+  border: 1px solid teal;
+  border-radius: 10px;
+  margin-top: 1em;
+  padding: 0.5em 1.5em;
+}
+#start:hover,
+#btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: teal;
+}
